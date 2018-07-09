@@ -20,7 +20,7 @@ import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLSocketFactory;
 
-abstract class ImageDownLoader implements Downloader {
+public abstract class ImageDownLoader implements Downloader {
 
     //请求参数
     private Map<String, String> mParams;
